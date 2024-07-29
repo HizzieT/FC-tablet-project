@@ -1,0 +1,123 @@
+@font-face {
+    font-family: FC font h1;
+    src: url('Marr Sans Desktop Fonts/MarrSans-Bold.otf');
+}
+@font-face {
+    font-family: FC font B;
+    src: url('Marr Sans Desktop Fonts/MarrSans-Light.otf');
+}
+@font-face {
+    font-family: FC font h2;
+    src: url('Marr Sans Desktop Fonts/MarrSans-Medium.otf');
+}
+@keyframes fadeIn { 0% {opacity: 0;} 100% {opacity: 1;}
+    
+}
+.headerFont{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'FC font h1';
+}
+.subHeaderFont{
+    font-family: 'FC font h2';
+    animation: fadeIn 3s;
+}
+.infoFont{ 
+    font-family: 'FC font B';
+    animation: fadeIn 3s;
+}
+.titleFont{
+    font-size: 50px;
+    text-align: center;
+  font-family:'FC fonts B';
+   animation: fadeIn 2s;
+}
+.menuFont{
+    font-size: 45px;
+    text-align: center;
+  font-family:'FC fonts B';
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color:rgb(221, 119, 91);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+.nav {
+    margin: 20px 0;
+    background-color: rgb(221, 119, 91);
+    padding: 8px;
+    margin-top: 7px;
+    font-size: 20px;
+    color:whitesmoke; 
+}
+.nav :hover{
+    background-color: rgb(228, 151, 80);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.MenuA a{
+    display: block;
+    color:whitesmoke ;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font: bold;
+    float:center;
+}
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section h2 {
+    padding: 20px;
+    text-align: center;
+    background-color: #cc4100;
+    color: whitesmoke;
+}
+
+.innerHedders {
+    padding: 20px;
+    text-align: center;
+text-underline-offset: black;
+background-color: none;
+}
+
+.section h3{
+margin: auto;
+text-align: center;
+text-underline-position:auto;
+}
+.links a {
+    color: #000000;
+    text-decoration: none;
+}
+
+  
+  
+

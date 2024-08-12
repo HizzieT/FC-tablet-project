@@ -3,12 +3,16 @@
     src: url('Marr Sans Desktop Fonts/MarrSans-Bold.otf');
 }
 @font-face {
-    font-family: FC font B;
-    src: url('Marr Sans Desktop Fonts/MarrSans-Light.otf');
+    font-family: infoFont;
+    src: url('Marr Sans Desktop Fonts/MarrSans-Regular.otf');
 }
 @font-face {
-    font-family: FC font h2;
-    src: url('Marr Sans Desktop Fonts/MarrSans-Medium.otf');
+    font-family: subTitle;
+    src: url('Marr Sans Desktop Fonts/MarrSans-Semibold.otf');
+}
+@font-face {
+    font-family: titleFont;
+    src: url('Marr Sans Desktop Fonts/Marr\ Sans\ Wide-Bold.otf');
 }
 @keyframes fadeIn { 0% {opacity: 0;} 100% {opacity: 1;}
     
@@ -19,23 +23,27 @@
     font-family: 'FC font h1';
 }
 .subHeaderFont{
-    font-family: 'FC font h2';
+    font-family: 'subTitle';
     animation: fadeIn 3s;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 .infoFont{ 
-    font-family: 'FC font B';
+    font-family: 'infoFont';
+    font-size: 18px;
     animation: fadeIn 3s;
 }
 .titleFont{
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-  font-family:'FC fonts B';
+  font-family:'titleFont';
    animation: fadeIn 2s;
 }
 .menuFont{
     font-size: 45px;
     text-align: center;
-  font-family:'FC fonts B';
+  font-family:'subTitle';
 }
 .contactUsFont{
     font-family: 'FC font h2';
@@ -94,6 +102,7 @@ nav ul {
 .section {
     background-color: white;
     padding: 20px;
+    padding-bottom: 80px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
